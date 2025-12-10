@@ -6,6 +6,7 @@ window.addEventListener('scroll', function() {
     const windowHeight = window.innerHeight;
     const documentHeight = document.documentElement.scrollHeight;
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    console.log(scrollTop);
     
     const scrollableDistance = documentHeight - windowHeight;
     const scrollPercentage = (scrollTop / scrollableDistance) * 100;

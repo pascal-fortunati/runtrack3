@@ -2,3 +2,4 @@
 
 Jour 1 Javascript
 Jour 2 Javascript
+Jour 3 Javascript

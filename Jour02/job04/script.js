@@ -1,14 +1,15 @@
-document.addEventListener('keydown', function(event) {
+document.addEventListener('keydown', function(e) {
+    console.log(e);
     const keylogger = document.getElementById('keylogger');
-    const key = event.key.toLowerCase();
+    const key = e.key.toLowerCase();
     
     // Gérer les touches Backspace et Delete
-    if (event.key === 'Backspace' || event.key === 'Delete') {
+    if (e.key === 'Backspace' || e.key === 'Delete') {
         if (document.activeElement !== keylogger) {
             // Empêcher le comportement par défaut si le focus n'est pas sur le textarea
-            event.preventDefault();
+            e.preDefault();
             // Effacer le dernier caractère du textarea
-            if (event.key === 'Backspace' && keylogger.value.length > 0) {
+            if (e.key === 'Backspace' && keylogger.value.length > 0) {
                 keylogger.value = keylogger.value.slice(0, -1);
             }
         }
