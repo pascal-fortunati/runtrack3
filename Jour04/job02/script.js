@@ -1,12 +1,9 @@
-// Fonction pour extraire la valeur d'une clé depuis une chaîne JSON
+// Fonction pour extraire la valeur associée à une clé dans une chaîne JSON
 function jsonValueKey(jsonString, key) {
     try {
-        // Remplacer les clés non-quotées par des clés quotées (pour l'exemple fourni)
-        const fixedJson = jsonString.replace(/([\w]+)\s*:/g, '"$1":');
-        const obj = JSON.parse(fixedJson);
+        const obj = JSON.parse(jsonString);
         return obj[key];
     } catch (e) {
-        console.error('JSON invalide :', e);
         return undefined;
     }
 }
@@ -23,4 +20,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
-
