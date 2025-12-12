@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container min-vh-100 d-flex align-items-center justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5 position-relative">
+            <a href="index.html"
+                class="position-absolute top-0 start-0 mt-3 ms-3 btn btn-light btn-sm rounded-circle shadow-sm d-flex align-items-center justify-content-center"
+                style="width:38px;height:38px;z-index:2;" title="Retour à l'accueil">
+                <span class="material-symbols-outlined" style="font-size:1.6em;">arrow_back</span>
+            </a>
+            <form class="bg-white p-4 p-md-5 rounded-4 shadow-sm" onsubmit="validerInscription(event)"
+                autocomplete="off" novalidate>
+                <h2 class="mb-4 text-center"><span class="material-symbols-outlined align-middle"
+                        style="font-size:2rem;">person_add</span> Inscription</h2>
+                <div class="mb-3">
+                    <label for="nom" class="form-label">Nom <span class="material-symbols-outlined align-middle"
+                            style="font-size:1.1em;">badge</span></label>
+                    <input type="text" class="form-control" id="nom" name="nom" minlength="2" maxlength="50" required
+                        oninput="validateField('nom', notEmpty)">
+                    <div id="nom-error" class="form-text text-danger"></div>
+                </div>
+                <div class="mb-3">
+                    <label for="prenom" class="form-label">Prénom <span class="material-symbols-outlined align-middle"
+                            style="font-size:1.1em;">face</span></label>
+                    <input type="text" class="form-control" id="prenom" name="prenom" minlength="2" maxlength="50"
+                        required oninput="validateField('prenom', notEmpty)">
+                    <div id="prenom-error" class="form-text text-danger"></div>
+                </div>
+                <div class="mb-3">
+                    <label for="adresse" class="form-label">Adresse <span class="material-symbols-outlined align-middle"
+                            style="font-size:1.1em;">home</span></label>
+                    <input type="text" class="form-control" id="adresse" name="adresse" minlength="5" maxlength="100"
+                        required oninput="validateField('adresse', notEmpty)">
+                    <div id="adresse-error" class="form-text text-danger"></div>
+                </div>
+                <div class="mb-3">
+                    <label for="cp" class="form-label">Code postal <span class="material-symbols-outlined align-middle"
+                            style="font-size:1.1em;">markunread_mailbox</span></label>
+                    <input type="text" class="form-control" id="cp" name="cp" pattern="\d{5}" maxlength="5" required
+                        oninput="validateField('cp', validCP)">
+                    <div id="cp-error" class="form-text text-danger"></div>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email <span class="material-symbols-outlined align-middle"
+                            style="font-size:1.1em;">mail</span></label>
+                    <input type="email" class="form-control" id="email" name="email" required
+                        oninput="validateField('email', validEmail)">
+                    <div id="email-error" class="form-text text-danger"></div>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Mot de passe <span
+                            class="material-symbols-outlined align-middle" style="font-size:1.1em;">lock</span></label>
+                    <input type="password" class="form-control" id="password" name="password" minlength="8" required
+                        oninput="validateField('password', validPassword)">
+                    <div id="password-error" class="form-text text-danger"></div>
+                </div>
+                <button type="submit" class="btn btn-primary w-100"><span class="material-symbols-outlined align-middle"
+                        style="font-size:1.2em;vertical-align:-3px;">person_add</span> S'inscrire</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
