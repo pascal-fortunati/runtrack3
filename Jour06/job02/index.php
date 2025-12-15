@@ -66,8 +66,8 @@
 
                 <div class="col-lg-3 col-md-12 mb-4">
                     <div class="sidebar">
-                        <div class="sidebar-header">Limbes</div>
-                        <div class="sidebar-item active">Luxure</div>
+                        <div class="sidebar-item active">Limbes</div>
+                        <div class="sidebar-item">Luxure</div>
                         <div class="sidebar-item">Gourmandise</div>
                         <div class="sidebar-item">Avarice</div>
                         <div class="sidebar-item">Colere</div>
