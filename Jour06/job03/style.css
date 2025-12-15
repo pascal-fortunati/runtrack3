@@ -1,0 +1,13 @@
+.block {
+    height: 120px;
+    margin-bottom: 15px;
+}
+
+.cyan { background-color: #9ee3ec; }
+.blue { background-color: #9fb7e9; }
+.purple { background-color: #c99ae8; }
+.orange { background-color: #e7a287; }
+
+.small {
+    height: 50px;
+}

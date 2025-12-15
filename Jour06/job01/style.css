@@ -1,0 +1,148 @@
+body {
+    background-color: #e8e8e8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #333 !important;
+}
+.navbar-nav .nav-link {
+    color: #999 !important;
+}
+.hero-section {
+    background-color: #d5d5d5;
+    padding: 60px 0;
+    text-align: center;
+}
+.hero-title {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #555;
+    margin-bottom: 40px;
+}
+.card-papillon {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.card-papillon img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.card-papillon h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card-papillon p {
+    color: #666;
+    font-size: 0.9rem;
+}
+.btn-commander {
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.content-card {
+    background: white;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.content-card h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.content-card p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+.btn-rebooter {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.sidebar {
+    background: white;
+    border-radius: 8px;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.sidebar-header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
+.sidebar-item {
+    padding: 12px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    color: #555;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.sidebar-item:hover {
+    background-color: #f8f9fa;
+}
+.sidebar-item:last-child {
+    border-bottom: none;
+}
+.progress-section {
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.progress-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.progress {
+    height: 30px;
+    background-color: #f0f0f0;
+}
+.progress-bar {
+    background-color: #ffc107;
+}
+.form-section {
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.form-section h5 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.input-group-text {
+    background-color: #f8f9fa;
+}
+.btn-submit {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 4px;
+}
+.pagination {
+    margin-top: 20px;
+}
