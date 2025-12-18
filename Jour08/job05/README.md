@@ -9,7 +9,7 @@
 
 **Clone pédagogique du site [Syntax](https://syntax.tailwindui.com/) en PHP avec documentation Node.js/Express/React**
 
-[Démo en ligne](#) • [Documentation](#fonctionnalités) • [Installation](#installation)
+[Documentation](#fonctionnalités) • [Installation](#installation)
 
 </div>
 
