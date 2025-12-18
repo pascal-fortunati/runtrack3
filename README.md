@@ -7,3 +7,4 @@ Jour 4 Javascript
 Jour 5 Javascript
 Jour 6 Boostrap et Javascript
 Jour 7 Materialize et Javascript
+Jour 8 Tailwindcss et Javascript

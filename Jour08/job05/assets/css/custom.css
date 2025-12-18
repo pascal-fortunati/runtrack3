@@ -1,0 +1,6 @@
+html { scroll-behavior: smooth; }
+.container { max-width: 1200px; }
+.hero-bg { background: radial-gradient(600px 300px at 10% 30%, rgba(56, 189, 248, 0.18), transparent), radial-gradient(700px 350px at 85% 60%, rgba(99, 102, 241, 0.20), transparent); }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+:where(h1,h2,h3,h4,h5,h6,section,div)[id] { scroll-margin-top: 96px; }
