@@ -1,0 +1,38 @@
+[
+  {
+    "id": "a444a71e-4f1c-1cd8-09be-a1667a9ea039",
+    "firstName": "Pascal",
+    "lastName": "Fortunati",
+    "email": "pascal.fortunati@laplateforme.io",
+    "password": "$2a$10$mWa/FKdIT8nIk1PR29hdm.ftiYVUzFahgHB4MzR6cZsDfxA2r0BLO",
+    "role": "admin",
+    "createdAt": "2026-01-05T10:23:09.468Z"
+  },
+  {
+    "id": "c175dcfd-c444-d449-0f1d-d15572f75515",
+    "firstName": "Jean",
+    "lastName": "Saucy",
+    "email": "jean.saucy@laplateforme.io",
+    "password": "$2a$10$.OMgFeM4Le9LZ956aZXYPO3tJM8BEeykdasI4viP6XLAKwoVb4kte",
+    "role": "moderator",
+    "createdAt": "2026-01-05T10:29:44.206Z"
+  },
+  {
+    "id": "ab218880-7a64-ada5-f583-b508459ccd18",
+    "firstName": "Rémi",
+    "lastName": "Dupont",
+    "email": "remi@laplateforme.io",
+    "password": "$2a$10$k.gckk4yiTCn/cw4Lk9ww./tMgylpl/dijAN86AY4znbt7Of3oNFG",
+    "role": "moderator",
+    "createdAt": "2026-01-05T11:38:01.169Z"
+  },
+  {
+    "id": "8ed1879a-3cf6-ec6f-80b2-6d71fd26fcd9",
+    "firstName": "Valérie",
+    "lastName": "Duponne",
+    "email": "valerie@laplateforme.io",
+    "password": "$2a$10$jvpyZ4fe/7WdoriW2V5Sh.w6HpM15aJVi9sO126700VNL3CXV7Pf.",
+    "role": "user",
+    "createdAt": "2026-01-05T12:48:49.923Z"
+  }
+]

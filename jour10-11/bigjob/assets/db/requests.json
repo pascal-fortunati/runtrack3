@@ -1,0 +1,119 @@
+[
+  {
+    "id": "d4838640-365b-84c5-ec7c-d856cb3e0cdc",
+    "userId": "a444a71e-4f1c-1cd8-09be-a1667a9ea039",
+    "userEmail": "pascal.fortunati@laplateforme.io",
+    "date": "2026-01-28",
+    "status": "approved",
+    "createdAt": "2026-01-05T10:23:14.474Z",
+    "updatedAt": "2026-01-05T12:42:55.828Z"
+  },
+  {
+    "id": "ba932ff5-9bfc-6c7e-1764-945edbb87788",
+    "userId": "a444a71e-4f1c-1cd8-09be-a1667a9ea039",
+    "userEmail": "pascal.fortunati@laplateforme.io",
+    "date": "2026-01-27",
+    "status": "approved",
+    "createdAt": "2026-01-05T10:23:15.445Z",
+    "updatedAt": "2026-01-05T10:39:42.388Z"
+  },
+  {
+    "id": "f3b4b431-20ca-b6d0-b01d-4835573c359d",
+    "userId": "a444a71e-4f1c-1cd8-09be-a1667a9ea039",
+    "userEmail": "pascal.fortunati@laplateforme.io",
+    "date": "2026-01-29",
+    "status": "approved",
+    "createdAt": "2026-01-05T10:23:16.662Z",
+    "updatedAt": "2026-01-05T10:39:42.869Z"
+  },
+  {
+    "id": "593491c8-9f3a-0537-85a8-c38febe8e98c",
+    "userId": "a444a71e-4f1c-1cd8-09be-a1667a9ea039",
+    "userEmail": "pascal.fortunati@laplateforme.io",
+    "date": "2026-01-30",
+    "status": "approved",
+    "createdAt": "2026-01-05T10:23:17.289Z",
+    "updatedAt": "2026-01-05T10:39:43.340Z"
+  },
+  {
+    "id": "375002f6-de7b-0b89-f287-0ad1a3915a3c",
+    "userId": "a444a71e-4f1c-1cd8-09be-a1667a9ea039",
+    "userEmail": "pascal.fortunati@laplateforme.io",
+    "date": "2026-01-31",
+    "status": "approved",
+    "createdAt": "2026-01-05T10:23:17.612Z",
+    "updatedAt": "2026-01-05T10:39:44.117Z"
+  },
+  {
+    "id": "4d205023-a998-8cf3-4e5f-703de229cd6d",
+    "userId": "ab218880-7a64-ada5-f583-b508459ccd18",
+    "userEmail": "remi@laplateforme.io",
+    "date": "2026-01-14",
+    "status": "approved",
+    "createdAt": "2026-01-05T11:39:06.316Z",
+    "updatedAt": "2026-01-05T11:44:19.302Z"
+  },
+  {
+    "id": "9daf0c3f-694a-1b7e-a5f5-20243ed8e1c9",
+    "userId": "ab218880-7a64-ada5-f583-b508459ccd18",
+    "userEmail": "remi@laplateforme.io",
+    "date": "2026-01-15",
+    "status": "approved",
+    "createdAt": "2026-01-05T11:39:06.676Z",
+    "updatedAt": "2026-01-05T11:44:20.210Z"
+  },
+  {
+    "id": "ab586085-d6f8-ebd9-7be5-fd5065f15fe7",
+    "userId": "ab218880-7a64-ada5-f583-b508459ccd18",
+    "userEmail": "remi@laplateforme.io",
+    "date": "2026-01-16",
+    "status": "approved",
+    "createdAt": "2026-01-05T11:39:07.104Z",
+    "updatedAt": "2026-01-05T11:44:20.641Z"
+  },
+  {
+    "id": "6cda0709-1fab-9d24-d1c7-407ae54e6dcb",
+    "userId": "ab218880-7a64-ada5-f583-b508459ccd18",
+    "userEmail": "remi@laplateforme.io",
+    "date": "2026-01-17",
+    "status": "approved",
+    "createdAt": "2026-01-05T11:39:07.663Z",
+    "updatedAt": "2026-01-05T11:44:21.024Z"
+  },
+  {
+    "id": "9106c9de-5e94-1a2e-80ba-4f7a9af8b34b",
+    "userId": "ab218880-7a64-ada5-f583-b508459ccd18",
+    "userEmail": "remi@laplateforme.io",
+    "date": "2026-01-18",
+    "status": "approved",
+    "createdAt": "2026-01-05T11:39:07.972Z",
+    "updatedAt": "2026-01-05T11:44:21.450Z"
+  },
+  {
+    "id": "d88ac857-1d0e-c5f0-6283-1afeeb2c8383",
+    "userId": "8ed1879a-3cf6-ec6f-80b2-6d71fd26fcd9",
+    "userEmail": "valerie@laplateforme.io",
+    "date": "2026-01-21",
+    "status": "pending",
+    "createdAt": "2026-01-05T12:49:14.182Z",
+    "updatedAt": "2026-01-05T12:49:14.182Z"
+  },
+  {
+    "id": "2b983365-6270-f408-f21c-b69401d7fbd7",
+    "userId": "8ed1879a-3cf6-ec6f-80b2-6d71fd26fcd9",
+    "userEmail": "valerie@laplateforme.io",
+    "date": "2026-01-22",
+    "status": "pending",
+    "createdAt": "2026-01-05T12:49:15.105Z",
+    "updatedAt": "2026-01-05T12:49:15.105Z"
+  },
+  {
+    "id": "af8b989b-ab75-e227-ff68-66c4cff1a7a6",
+    "userId": "8ed1879a-3cf6-ec6f-80b2-6d71fd26fcd9",
+    "userEmail": "valerie@laplateforme.io",
+    "date": "2026-01-23",
+    "status": "pending",
+    "createdAt": "2026-01-05T12:49:15.582Z",
+    "updatedAt": "2026-01-05T12:49:15.582Z"
+  }
+]
