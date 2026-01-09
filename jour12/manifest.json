@@ -1,0 +1,39 @@
+{
+  "name": "Phone - PWA",
+  "short_name": "Phone",
+  "description": "Application Phone style Android avec alarmes, réveils et chronomètres.",
+  "start_url": "/phone-pwa/",
+  "scope": "/phone-pwa/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1976D2",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/app.png",
+      "type": "image/png",
+      "sizes": "417x902",
+      "form_factor": "wide",
+      "label": "Vue mobile de l'application"
+    },
+    {
+      "src": "screenshots/app-2.png",
+      "type": "image/png",
+      "sizes": "417x902",
+      "form_factor": "wide",
+      "label": "Vue bureau de l'application"
+    }
+  ]
+}
